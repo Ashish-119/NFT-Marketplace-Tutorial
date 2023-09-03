@@ -11,8 +11,8 @@ export const uploadJSONToIPFS = async(JSONBody) => {
     return axios 
         .post(url, JSONBody, {
             headers: {
-                pinata_api_key: key,
-                pinata_secret_api_key: secret,
+                pinata_api_key:"28f710487ee64e3c334b",
+                pinata_secret_api_key:"8e183f09e41b56489db55706486c9cb808d2638f5c87fcd4cbf36af239e08250",
             }
         })
         .then(function (response) {
